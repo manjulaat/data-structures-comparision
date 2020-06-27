@@ -1,0 +1,90 @@
+Time for insertions
+
+1000 entries: 0.007478
+
+
+5000 entries: 0.035009
+
+
+10000 entries: 0.06583
+
+
+15000 entries: 0.097099
+
+
+20000 entries: 0.130008
+
+Search stored entries
+
+0 entries: 1e-06
+
+
+200 entries: 0.000277
+
+
+500 entries: 0.001703
+
+
+1000 entries: 0.004072
+
+
+1500 entries: 0.008476
+
+
+2000 entries: 0.014734
+
+
+2500 entries: 0.019478
+
+
+3000 entries: 0.027176
+
+
+4000 entries: 0.049066
+
+
+5000 entries: 0.054242
+
+
+7500 entries: 0.054173
+
+
+10000 entries: 0.057698
+
+search NOT stored entries
+
+0 entries: 1e-06
+
+
+200 entries: 0.000199
+
+
+500 entries: 0.00047
+
+
+1000 entries: 0.000871
+
+
+1500 entries: 0.001254
+
+
+2000 entries: 0.001907
+
+
+2500 entries: 0.001911
+
+
+3000 entries: 0.002189
+
+
+4000 entries: 0.002868
+
+
+5000 entries: 0.003604
+
+
+7500 entries: 0.005651
+
+
+10000 entries: 0.007668
+
