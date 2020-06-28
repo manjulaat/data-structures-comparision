@@ -81,7 +81,7 @@ int main()
 	// Close file
   dataInputFile.close();
   
-  sizeFile << "size: " << bst.size(root) << endl;
+  sizeFile << "size: " << bst.size(root) * 8 << "bytes" << endl;
 
 
   timeFile << "Search stored entries" << endl;

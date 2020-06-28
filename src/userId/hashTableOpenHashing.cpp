@@ -22,7 +22,7 @@ public:
 	bool search(unsigned long long key);
 
   int size() {
-    return length;
+    return length * 8;
   }
 
 	// hash function to map values to key 
@@ -105,7 +105,7 @@ int main() {
 	whateverFile << "\n";
 	// Close file
   dataInputFile.close();
-  sizeFile << "size: " << h.size() << endl;
+  sizeFile << "size: " << h.size() << "bytes" << endl;
 
 
   timeFile << "Search stored entries" << endl;

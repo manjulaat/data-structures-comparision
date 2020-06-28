@@ -148,7 +148,7 @@ int main() {
 	whateverFile << "\n";
 	// Close file
   dataInputFile.close();
-  sizeFile << "size: " << h->sizeofMap() << endl;
+  sizeFile << "size: " << h->sizeofMap() * 8 << "bytes" << endl;
 	
 	timeFile << "Search stored entries" << endl;
   while (getline(searchStoredInput, line)) {

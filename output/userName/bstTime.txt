@@ -1,90 +1,90 @@
 Time for insertions
 
-1000 entries: 0.008682
+1000 entries: 0.010127
 
 
-5000 entries: 0.044918
+5000 entries: 0.056246
 
 
-10000 entries: 0.089383
+10000 entries: 0.112207
 
 
-15000 entries: 0.141691
+15000 entries: 0.169196
 
 
-20000 entries: 0.190839
+20000 entries: 0.223843
 
 Search stored entries
 
 0 entries: 1e-06
 
 
-200 entries: 0.00049
+200 entries: 0.000594
 
 
-500 entries: 0.0015
+500 entries: 0.001373
 
 
-1000 entries: 0.00376
+1000 entries: 0.003088
 
 
-1500 entries: 0.00607
+1500 entries: 0.004909
 
 
-2000 entries: 0.00572
+2000 entries: 0.006773
 
 
-2500 entries: 0.00701
+2500 entries: 0.008682
 
 
-3000 entries: 0.008599
+3000 entries: 0.01069
 
 
-4000 entries: 0.011838
+4000 entries: 0.014723
 
 
-5000 entries: 0.01539
+5000 entries: 0.01899
 
 
-7500 entries: 0.025708
+7500 entries: 0.030068
 
 
-10000 entries: 0.037449
+10000 entries: 0.042804
 
 search NOT stored entries
 
-100 entries: 0.000285
+100 entries: 0.000352
 
 
-200 entries: 0.000693
+200 entries: 0.000853
 
 
-500 entries: 0.001197
+500 entries: 0.001483
 
 
-1000 entries: 0.003355
+1000 entries: 0.004166
 
 
-1500 entries: 0.005661
+1500 entries: 0.007645
 
 
-2000 entries: 0.006579
+2000 entries: 0.010763
 
 
-2500 entries: 0.007784
+2500 entries: 0.010618
 
 
-3000 entries: 0.010433
+3000 entries: 0.013016
 
 
-4000 entries: 0.012978
+4000 entries: 0.0148
 
 
-5000 entries: 0.023945
+5000 entries: 0.023109
 
 
-7500 entries: 0.04299
+7500 entries: 0.043818
 
 
-10000 entries: 0.04729
+10000 entries: 0.04844
 
