@@ -35,13 +35,13 @@ public:
 
 Hash::Hash(int b) {
 	this->BUCKET = b;
-  this -> length = 0;
+  this -> length = b * 4;
 	table = new list<string>[BUCKET];
 }
 
 void Hash::insertItem(string key) {
 	int index = hashFunction(key);
-  length++;
+  length += key.size();
 	table[index].push_back(key);
 }
 
@@ -105,7 +105,7 @@ int main() {
 	whateverFile << "\n";
 	// Close file
   dataInputFile.close();
-  sizeFile << "size: " << h.size() << endl;
+  sizeFile << "size: " << h.size() << "bytes" << endl;
 
 
   timeFile << "Search stored entries" << endl;

@@ -39,7 +39,7 @@ class HashMap {
 
 		//Initial capacity of hash array 
 		capacity = 22000;
-		size=0;
+		size= 22000 * 8;
 		arr = new HashNode<K,V>*[capacity];
 		
 		//Initialise all elements of array as NULL 
@@ -73,7 +73,7 @@ class HashMap {
 			hashIndex++;
 			hashIndex %= capacity;
 		}
-		size++;
+		size += key.size();
 		arr[hashIndex] = temp;
 	}
 	
@@ -181,7 +181,7 @@ int main() {
 	whateverFile << "\n";
 	// Close file
   dataInputFile.close();
-  sizeFile << "size: " << h->sizeofMap() << endl;
+  sizeFile << "size: " << h->sizeofMap() << "bytes" << endl;
 	
 	timeFile << "Search stored entries" << endl;
   while (getline(searchStoredInput, line)) {

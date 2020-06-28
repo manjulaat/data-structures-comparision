@@ -81,7 +81,7 @@ int main()
 	// Close file
   dataInputFile.close();
 
-  sizeFile << "size: " << bst.size(root) << endl;
+  sizeFile << "size: " << bst.size(root) << "bytes" << endl;
 
 
   timeFile << "Search stored entries" << endl;
@@ -165,7 +165,7 @@ unsigned long long BST::size(node* node)  {
   if (node == NULL)  
     return 0;  
   else {
-    return (size(node->left) + sizeof(node) + size(node->right));
+    return (size(node->left) + sizeof(node->userName.size()) + size(node->right));
   }
 }
  
